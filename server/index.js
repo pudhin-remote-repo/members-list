@@ -8,10 +8,10 @@ app.use(express.json());
 
 
 const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "milk"
+    host: "sql302.infinityfree.com",
+    user: "if0_35700049",
+    password: "511SpurFtK",
+    database: "if0_35700049_member"
 })
 
 app.get("/", (req, res) => {
